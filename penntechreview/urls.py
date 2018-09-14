@@ -5,5 +5,6 @@ from core.views import splash, read, apply
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('read/', read, name='read'),
+    path('home/', splash, name='splash'),
     path('', apply, name='apply')
 ]
