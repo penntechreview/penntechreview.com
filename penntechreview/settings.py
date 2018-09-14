@@ -25,7 +25,7 @@ SECRET_KEY = ')rl70&*=_lr)sjn5_0*c^70=_+!8+u%k0)!o7qs=tl1$x&ni_p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['beta.penntechreview.com', 'penntechreview.com']
 
 
 # Application definition
