@@ -10,7 +10,7 @@ class Post(models.Model):
     title = models.CharField(max_length=200)
     subtitle = models.CharField(max_length=200)
     body = models.TextField()
-    author = models.ForeignKey(TeamMember, on_delete=models.CASCADE)
+    author = models.ForeignKey(Member, on_delete=models.CASCADE)
     pub_date = models.DateTimeField()
 
     def __str__(self):
